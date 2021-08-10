@@ -1,0 +1,31 @@
+{
+  "ids": {
+    "User": 3,
+    "Cheese": 13,
+    "UserCredentials": 3
+  },
+  "models": {
+    "User": {
+      "1": "{\"email\":\"francofrizzo@gmail.com\",\"id\":1}",
+      "2": "{\"email\":\"francofrizz2o@gmail.com\",\"id\":2}"
+    },
+    "Cheese": {
+      "c311d795-edc6-44f2-9efa-dac372105629": "{\"id\":\"c311d795-edc6-44f2-9efa-dac372105629\",\"name\":\"Gouda\",\"age\":4,\"hardness\":\"Semi-duro\",\"description\":\"Queso holandés fabricado con leche de vaca, denominado así por la ciudad de Gouda\",\"userId\":1}",
+      "e37c1f42-543a-4cd8-ad2f-2fd9e95ef437": "{\"id\":\"e37c1f42-543a-4cd8-ad2f-2fd9e95ef437\",\"name\":\"Brie\",\"age\":1,\"hardness\":\"Blando\",\"description\":\"Queso francés de pasta blanda elaborado con leche cruda de vaca\",\"userId\":1}",
+      "0f6fae68-41c6-4361-9779-d7ecd2c5e8c0": "{\"id\":\"0f6fae68-41c6-4361-9779-d7ecd2c5e8c0\",\"name\":\"Provolone\",\"age\":4,\"hardness\":\"Semi-duro\",\"description\":\"Queso italiano, con sabor muy variable, que se usa para hacer provoletas\",\"userId\":1}",
+      "ebf4b6d8-5347-4fb4-a15d-50aa63d96d29": "{\"id\":\"ebf4b6d8-5347-4fb4-a15d-50aa63d96d29\",\"name\":\"Queso suizo\",\"age\":6,\"hardness\":\"Semi-blando\",\"description\":\"Queso hecho de leche de vaca y con característicos agujeros\",\"userId\":1}",
+      "8ff65aa3-62e8-4922-900f-a2a56ae09274": "{\"id\":\"8ff65aa3-62e8-4922-900f-a2a56ae09274\",\"name\":\"Cheddar\",\"age\":3,\"hardness\":\"Semi-duro\",\"description\":\"Queso pálido de sabor agrio, originalmente producido en la villa de Cheddar, en Somerset, Inglaterra\",\"userId\":1}",
+      "651a8418-bd0c-40ce-b40f-38da7316c36f": "{\"id\":\"651a8418-bd0c-40ce-b40f-38da7316c36f\",\"name\":\"Parmesano\",\"age\":12,\"hardness\":\"Duro\",\"description\":\"Queso italiano de consistencia dura, madura y grasa\",\"userId\":1}",
+      "08f71403-190f-4418-8f3a-ca5044b7b6c8": "{\"id\":\"08f71403-190f-4418-8f3a-ca5044b7b6c8\",\"name\":\"Gouda\",\"age\":4,\"hardness\":\"Semi-duro\",\"description\":\"Queso holandés fabricado con leche de vaca, denominado así por la ciudad de Gouda\",\"userId\":2}",
+      "26959975-a83d-4268-a586-61685cb8ce89": "{\"id\":\"26959975-a83d-4268-a586-61685cb8ce89\",\"name\":\"Brie\",\"age\":1,\"hardness\":\"Blando\",\"description\":\"Queso francés de pasta blanda elaborado con leche cruda de vaca\",\"userId\":2}",
+      "c5787bdd-b41c-44c8-808f-95f854f1527a": "{\"id\":\"c5787bdd-b41c-44c8-808f-95f854f1527a\",\"name\":\"Provolone\",\"age\":4,\"hardness\":\"Semi-duro\",\"description\":\"Queso italiano, con sabor muy variable, que se usa para hacer provoletas\",\"userId\":2}",
+      "53e895a6-dc36-4e4e-a90f-edc015e6615b": "{\"id\":\"53e895a6-dc36-4e4e-a90f-edc015e6615b\",\"name\":\"Queso suizo\",\"age\":6,\"hardness\":\"Semi-blando\",\"description\":\"Queso hecho de leche de vaca y con característicos agujeros\",\"userId\":2}",
+      "9c284a72-516c-4848-bb25-82b4b1ca399c": "{\"id\":\"9c284a72-516c-4848-bb25-82b4b1ca399c\",\"name\":\"Cheddar\",\"age\":3,\"hardness\":\"Semi-duro\",\"description\":\"Queso pálido de sabor agrio, originalmente producido en la villa de Cheddar, en Somerset, Inglaterra\",\"userId\":2}",
+      "ee7167d0-a3bb-4067-91b0-c772e96e8e4d": "{\"id\":\"ee7167d0-a3bb-4067-91b0-c772e96e8e4d\",\"name\":\"Parmesano\",\"age\":12,\"hardness\":\"Duro\",\"description\":\"Queso italiano de consistencia dura, madura y grasa\",\"userId\":2}"
+    },
+    "UserCredentials": {
+      "1": "{\"password\":\"$2a$10$UGMweVhpVr726zat4PDM6.eiXH7YmrO3YVX6ghgD7qIKxlAWdvGk2\",\"userId\":\"1\",\"id\":1}",
+      "2": "{\"password\":\"$2a$10$sryaV8MTbb46vRNIZel2z.to6GLPr1yOxlDChvzZYDEmbNafo9kBK\",\"userId\":\"2\",\"id\":2}"
+    }
+  }
+}
