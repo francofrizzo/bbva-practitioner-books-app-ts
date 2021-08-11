@@ -28,19 +28,21 @@ export class CheeseController {
     content: {'application/json': {schema: getModelSchemaRef(Cheese)}},
   })
   async create(
+    @inject(SecurityBindings.USER)
+    currentUser: User,
     @requestBody({
       content: {
         'application/json': {
           schema: getModelSchemaRef(Cheese, {
             title: 'NewCheese',
-            exclude: ['id'],
+            exclude: ['id', 'userId'],
           }),
         },
       },
     })
-    cheese: Omit<Cheese, 'id'>,
+    cheese: Omit<Cheese, 'id' | 'userId'>,
   ): Promise<Cheese> {
-    return this.cheeseRepository.create(cheese);
+    return this.cheeseRepository.create({...cheese, userId: currentUser.id});
   }
 
   @get('/cheeses')
