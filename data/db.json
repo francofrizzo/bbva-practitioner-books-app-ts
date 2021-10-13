@@ -1,19 +1,27 @@
 {
   "ids": {
-    "User": 2,
-    "Book": 3,
-    "UserCredentials": 2
+    "User": 4,
+    "Book": 7,
+    "UserCredentials": 4
   },
   "models": {
     "User": {
-      "1": "{\"email\":\"francofrizzo@gmail.com\",\"id\":1}"
+      "1": "{\"email\":\"francofrizzo@gmail.com\",\"id\":1}",
+      "2": "{\"email\":\"francofrizzo+2@gmail.com\",\"id\":2}",
+      "3": "{\"email\":\"francofrizzo+3@gmail.com\",\"id\":3}"
     },
     "Book": {
       "c311d795-edc6-44f2-9efa-dac372105629": "{\"id\":\"c311d795-edc6-44f2-9efa-dac372105629\",\"title\":\"El Aleph\",\"publication\":1949,\"author\":\"Jorge Luis Borges\",\"summary\":\"es uno de los libros de cuentos más representativos del escritor argentino Jorge Luis Borges. Publicado en 1949, fue reeditado por el autor en 1974. Sus textos remiten a una infinidad de fuentes y bibliografías en torno a las cuales se articulan mitos y metáforas de la tradición literaria universal. Esta obra marca un punto de inflexión respecto al estilo que destilaba su colección anterior de cuentos, Ficciones; aun manteniendo su estilo sobrio y perfeccionista, el escritor aborda aquí otra serie de eventos u objetos inverosímiles enmarcados en un ambiente realista, lo que contribuye a resaltar su carácter fantástico.\",\"userId\":1}",
-      "e37c1f42-543a-4cd8-ad2f-2fd9e95ef437": "{\"id\":\"e37c1f42-543a-4cd8-ad2f-2fd9e95ef437\",\"title\":\"Rayuela\",\"publication\":1963,\"author\":\"Rayuela\",\"summary\":\"Narra la historia de Horacio Oliveira, su protagonista, y su relación con «la Maga». La historia pone en juego la subjetividad del lector y tiene múltiples finales. A esta obra suele llamársela «antinovela», aunque el mismo Cortázar prefería denominarla «contranovela». Significó un salto al vacío que lo distanció de la seguridad controlada de los cuentos fantásticos de su primera época como escritor para adentrarse en una búsqueda sin hallazgos a través de preguntas sin respuesta.\",\"userId\":1}"
+      "e37c1f42-543a-4cd8-ad2f-2fd9e95ef437": "{\"id\":\"e37c1f42-543a-4cd8-ad2f-2fd9e95ef437\",\"title\":\"Rayuela\",\"publication\":1963,\"author\":\"Rayuela\",\"summary\":\"Narra la historia de Horacio Oliveira, su protagonista, y su relación con «la Maga». La historia pone en juego la subjetividad del lector y tiene múltiples finales. A esta obra suele llamársela «antinovela», aunque el mismo Cortázar prefería denominarla «contranovela». Significó un salto al vacío que lo distanció de la seguridad controlada de los cuentos fantásticos de su primera época como escritor para adentrarse en una búsqueda sin hallazgos a través de preguntas sin respuesta.\",\"userId\":1}",
+      "31b68cd4-c4d0-4b58-b2a4-1d1dd4db6e70": "{\"id\":\"31b68cd4-c4d0-4b58-b2a4-1d1dd4db6e70\",\"title\":\"El Aleph\",\"publication\":1949,\"author\":\"Jorge Luis Borges\",\"summary\":\"Es uno de los libros de cuentos más representativos del escritor argentino Jorge Luis Borges. Publicado en 1949, fue reeditado por el autor en 1974. Sus textos remiten a una infinidad de fuentes y bibliografías en torno a las cuales se articulan mitos y metáforas de la tradición literaria universal. Esta obra marca un punto de inflexión respecto al estilo que destilaba su colección anterior de cuentos, Ficciones; aun manteniendo su estilo sobrio y perfeccionista, el escritor aborda aquí otra serie de eventos u objetos inverosímiles enmarcados en un ambiente realista, lo que contribuye a resaltar su carácter fantástico.\",\"userId\":2}",
+      "89e07d49-579d-4f14-8148-93c5f62a3ec9": "{\"id\":\"89e07d49-579d-4f14-8148-93c5f62a3ec9\",\"title\":\"Rayuela\",\"publication\":1963,\"author\":\"Rayuela\",\"summary\":\"Narra la historia de Horacio Oliveira, su protagonista, y su relación con «la Maga». La historia pone en juego la subjetividad del lector y tiene múltiples finales. A esta obra suele llamársela «antinovela», aunque el mismo Cortázar prefería denominarla «contranovela». Significó un salto al vacío que lo distanció de la seguridad controlada de los cuentos fantásticos de su primera época como escritor para adentrarse en una búsqueda sin hallazgos a través de preguntas sin respuesta.\",\"userId\":2}",
+      "b503c348-2d08-4005-9de6-b76104365f52": "{\"id\":\"b503c348-2d08-4005-9de6-b76104365f52\",\"title\":\"El Aleph\",\"publication\":1949,\"author\":\"Jorge Luis Borges\",\"summary\":\"Es uno de los libros de cuentos más representativos del escritor argentino Jorge Luis Borges. Publicado en 1949, fue reeditado por el autor en 1974. Sus textos remiten a una infinidad de fuentes y bibliografías en torno a las cuales se articulan mitos y metáforas de la tradición literaria universal. Esta obra marca un punto de inflexión respecto al estilo que destilaba su colección anterior de cuentos, Ficciones; aun manteniendo su estilo sobrio y perfeccionista, el escritor aborda aquí otra serie de eventos u objetos inverosímiles enmarcados en un ambiente realista, lo que contribuye a resaltar su carácter fantástico.\",\"userId\":3}",
+      "a41002a2-ab9f-483a-a3c2-35273d5e6cc7": "{\"id\":\"a41002a2-ab9f-483a-a3c2-35273d5e6cc7\",\"title\":\"Rayuela\",\"publication\":1963,\"author\":\"Rayuela\",\"summary\":\"Narra la historia de Horacio Oliveira, su protagonista, y su relación con «la Maga». La historia pone en juego la subjetividad del lector y tiene múltiples finales. A esta obra suele llamársela «antinovela», aunque el mismo Cortázar prefería denominarla «contranovela». Significó un salto al vacío que lo distanció de la seguridad controlada de los cuentos fantásticos de su primera época como escritor para adentrarse en una búsqueda sin hallazgos a través de preguntas sin respuesta.\",\"userId\":3}"
     },
     "UserCredentials": {
-      "1": "{\"password\":\"$2a$10$UGMweVhpVr726zat4PDM6.eiXH7YmrO3YVX6ghgD7qIKxlAWdvGk2\",\"userId\":\"1\",\"id\":1}"
+      "1": "{\"password\":\"$2a$10$UGMweVhpVr726zat4PDM6.eiXH7YmrO3YVX6ghgD7qIKxlAWdvGk2\",\"userId\":\"1\",\"id\":1}",
+      "2": "{\"password\":\"$2a$10$TV/sP7t7Bqmif3DAgaoJT.ZQQZekueZBnJjt30DSv1B.95oo/i7ji\",\"userId\":\"2\",\"id\":2}",
+      "3": "{\"password\":\"$2a$10$0Xo4SNZvDNvcetWmyjxj0eYQ4oyNw7L5Ef7VenCGf4fIVFx/4RGd6\",\"userId\":\"3\",\"id\":3}"
     }
   }
 }
