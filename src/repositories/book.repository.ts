@@ -1,14 +1,14 @@
 import {inject} from '@loopback/core';
 import {DefaultCrudRepository} from '@loopback/repository';
 import {DbDataSource} from '../datasources';
-import {Cheese, CheeseRelations} from '../models';
+import {Book, BookRelations} from '../models';
 
-export class CheeseRepository extends DefaultCrudRepository<
-  Cheese,
-  typeof Cheese.prototype.id,
-  CheeseRelations
+export class BookRepository extends DefaultCrudRepository<
+  Book,
+  typeof Book.prototype.id,
+  BookRelations
 > {
   constructor(@inject('datasources.db') dataSource: DbDataSource) {
-    super(Cheese, dataSource);
+    super(Book, dataSource);
   }
 }

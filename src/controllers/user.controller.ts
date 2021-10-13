@@ -20,9 +20,9 @@ import {
 import {genSalt, hash} from 'bcryptjs';
 import _ from 'lodash';
 import {User} from '../models';
-import {CheeseRepository} from '../repositories';
+import {BookRepository} from '../repositories';
 import {UserRepository} from '../repositories/user.repository';
-import cheeses from '../utils/cheeses';
+import books from '../utils/books';
 
 const CredentialsSchema: SchemaObject = {
   type: 'object',
@@ -64,7 +64,7 @@ export class UserController {
     @inject(UserServiceBindings.USER_SERVICE)
     public userService: UserService<User, Credentials>,
     @repository(UserRepository) protected userRepository: UserRepository,
-    @repository(CheeseRepository) protected cheeseRepository: CheeseRepository,
+    @repository(BookRepository) protected bookRepository: BookRepository,
   ) {}
 
   @post('/users/login', {
@@ -135,8 +135,8 @@ export class UserController {
     await this.userRepository.userCredentials(savedUser.id).create({password});
 
     await Promise.all(
-      cheeses.map(async cheese =>
-        this.cheeseRepository.create({...cheese, userId: savedUser.id}),
+      books.map(async book =>
+        this.bookRepository.create({...book, userId: savedUser.id}),
       ),
     );
 

@@ -2,7 +2,7 @@ import {User} from '@loopback/authentication-jwt';
 import {belongsTo, Entity, model, property} from '@loopback/repository';
 
 @model()
-export class Cheese extends Entity {
+export class Book extends Entity {
   @property({
     type: 'string',
     id: true,
@@ -15,36 +15,36 @@ export class Cheese extends Entity {
     type: 'string',
     required: true,
   })
-  name: string;
+  title: string;
 
   @property({
     type: 'number',
     required: true,
   })
-  age: number;
+  publication: number;
 
   @property({
     type: 'string',
     required: true,
   })
-  hardness: string;
+  author: string;
 
   @property({
     type: 'string',
     required: true,
   })
-  description: string;
+  summary: string;
 
   @belongsTo(() => User, undefined, {hidden: true})
-  userId: number;
+  user: number;
 
-  constructor(data?: Partial<Cheese>) {
+  constructor(data?: Partial<Book>) {
     super(data);
   }
 }
 
-export interface CheeseRelations {
+export interface BookRelations {
   // describe navigational properties here
 }
 
-export type CheeseWithRelations = Cheese & CheeseRelations;
+export type BookWithRelations = Book & BookRelations;
