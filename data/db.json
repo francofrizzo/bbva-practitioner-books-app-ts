@@ -6,7 +6,7 @@
   },
   "models": {
     "User": {
-      "1": "{\"email\":\"francofrizzo@gmail.com\",\"id\":1}",
+      "1": "{\"email\":\"francofrizzo@gmail.com\",\"id\":1}"
     },
     "Book": {
       "c311d795-edc6-44f2-9efa-dac372105629": "{\"id\":\"c311d795-edc6-44f2-9efa-dac372105629\",\"title\":\"El Aleph\",\"publication\":1949,\"author\":\"Jorge Luis Borges\",\"summary\":\"es uno de los libros de cuentos más representativos del escritor argentino Jorge Luis Borges. Publicado en 1949, fue reeditado por el autor en 1974. Sus textos remiten a una infinidad de fuentes y bibliografías en torno a las cuales se articulan mitos y metáforas de la tradición literaria universal. Esta obra marca un punto de inflexión respecto al estilo que destilaba su colección anterior de cuentos, Ficciones; aun manteniendo su estilo sobrio y perfeccionista, el escritor aborda aquí otra serie de eventos u objetos inverosímiles enmarcados en un ambiente realista, lo que contribuye a resaltar su carácter fantástico.\",\"userId\":1}",
