@@ -36,7 +36,7 @@ export class Book extends Entity {
   summary: string;
 
   @belongsTo(() => User, undefined, {hidden: true})
-  user: number;
+  userId: number;
 
   constructor(data?: Partial<Book>) {
     super(data);
