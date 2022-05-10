@@ -18,12 +18,6 @@ export class Book extends Entity {
   title: string;
 
   @property({
-    type: 'number',
-    required: true,
-  })
-  publication: number;
-
-  @property({
     type: 'string',
     required: true,
   })
@@ -33,7 +27,25 @@ export class Book extends Entity {
     type: 'string',
     required: true,
   })
-  summary: string;
+  year: string;
+
+  @property({
+    type: 'string',
+    required: true,
+  })
+  country: string;
+
+  @property({
+    type: 'string',
+    required: true,
+  })
+  originalLanguage: string;
+
+  @property({
+    type: 'boolean',
+    required: true,
+  })
+  available: boolean;
 
   @belongsTo(() => User, undefined, {hidden: true})
   userId: number;

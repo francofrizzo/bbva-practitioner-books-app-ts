@@ -18,7 +18,7 @@ import {MySequence} from './sequence';
 
 export {ApplicationConfig};
 
-export class QuesoApplication extends BootMixin(
+export class BooksApplication extends BootMixin(
   ServiceMixin(RepositoryMixin(RestApplication)),
 ) {
   constructor(options: ApplicationConfig = {}) {

@@ -1,4 +1,4 @@
-import {QuesoApplication} from '../..';
+import {BooksApplication} from '../..';
 import {
   createRestAppClient,
   givenHttpServerConfig,
@@ -14,7 +14,7 @@ export async function setupApplication(): Promise<AppWithClient> {
     // port: +process.env.PORT,
   });
 
-  const app = new QuesoApplication({
+  const app = new BooksApplication({
     rest: restConfig,
   });
 
@@ -27,6 +27,6 @@ export async function setupApplication(): Promise<AppWithClient> {
 }
 
 export interface AppWithClient {
-  app: QuesoApplication;
+  app: BooksApplication;
   client: Client;
 }
