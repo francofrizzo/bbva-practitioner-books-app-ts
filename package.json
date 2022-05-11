@@ -1,6 +1,6 @@
 {
-  "name": "book-app-backend",
-  "version": "0.0.1",
+  "name": "books-app-backend",
+  "version": "1.0.1",
   "description": "Una pequeña biblioteca virtual",
   "keywords": [
     "loopback-application",
