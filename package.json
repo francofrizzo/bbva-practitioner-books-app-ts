@@ -1,7 +1,7 @@
 {
-  "name": "queso",
+  "name": "book-app-backend",
   "version": "0.0.1",
-  "description": "Una pequeña aplicación de quesos",
+  "description": "Una pequeña biblioteca virtual",
   "keywords": [
     "loopback-application",
     "loopback"
